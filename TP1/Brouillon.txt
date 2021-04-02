@@ -1,0 +1,19 @@
+1. remplir le graphe: 	premier: 	noeud depart premiere dimension, noeud final 
+					deuxieme dimension, distance dans les cases.
+			deuxieme:	noeud premiere dimension, nombre d'objets
+					A, B et C deuxieme dimension.
+
+2. Connaître tous les chemins en ordre de distance avec le nombre d'objets possibles de 
+ramasser pour ce trajet (A, B et C) jusqu'à ce que tous les noeuds aient été inclus dans S.
+Pour chaque chemin, il faut les classer en ordre de distance à faire et il faut noter le 
+parcours et le nombre d'objets possibles de ramasser sur ce trajet.
+
+3. Sélectionner le plus petit trajet permettant de ramasser tous les objets de la commande
+sur le trajet. À partir du dernier noeud, trouver le chemin le plus rapide pour revenir au
+point de départ.
+
+4. Sélectionner le robot qui va faire la tâche le plus rapidement en sachant le nombre
+d'objets à ramasser à chaque noeud. Optimiser le trajet du robot. Par exemple: la commande 
+demande 1 objet A qui se situe au premier noeud rencontré et au dernier noeud rencontré.
+Le robot doit optimiser son trajet en attendant au dernier noeud pour prendre l'objet A
+pour être plus léger lors du trajet et aller plus vite.
